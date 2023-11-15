@@ -1,0 +1,8 @@
+# Task-Scheduler-
+The presented C++ program implements a Task Manager and Optimizer designed for managing and optimizing tasks within an organizational structure. The system distinguishes between two user roles: Admin and Employee. Admins have the ability to assign, update, and remove tasks within specific departments, while Employees can view and manage their assigned tasks.
+
+The program employs three main classes: Task, representing individual tasks with attributes such as name, description, due date, priority, dependencies, completion status, and remarks; Employee, containing information about employees, including their name, department, and a vector of assigned tasks; and TaskList, serving as the central repository for all tasks, managing task assignment to employees, and providing functionality for task manipulation and display.
+
+Key features include the ability to add, remove, and update tasks, assign tasks to specific employees, and display tasks based on various criteria such as highest priority and due date. The program incorporates a priority queue to efficiently manage and display tasks in order of priority. Admins can manage tasks for employees within their department, while Employees can view and interact with their assigned tasks. Additionally, the program allows for marking tasks as completed and adding remarks. The overall design promotes efficient task organization, employee task visibility, and streamlined task management within an organizational context.
+
+The code provides a practical foundation for developing a comprehensive task management system with features suitable for both administrative and employee-centric task handling.
